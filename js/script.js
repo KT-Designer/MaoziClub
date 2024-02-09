@@ -1,3 +1,25 @@
+// 置頂鍵
+window.onscroll = function () {
+    var e = document.getElementById("scrolltop");
+    if (!e) {
+        e = document.createElement("a");
+        e.id = "scrolltop";
+        e.href = "#";
+        document.body.appendChild(e);
+    }
+    e.style.display = "block";
+    e.onclick = (ev) => {
+        ev.preventDefault();
+        document.documentElement.scrollTop = 0;
+    };
+};
+
+
+
+
+
+
+
 $(document).ready(function () {
 
     // 選單預設和點擊樣式
@@ -37,3 +59,5 @@ $(document).ready(function () {
 
 
 });
+
+
