@@ -57,6 +57,10 @@ $(document).ready(function () {
     // adjustMiddleHeight();
 
 
+    // Hero_輪播不停止
+    $('.carousel').carousel({ pause: false });
+
+
 
 
 });
