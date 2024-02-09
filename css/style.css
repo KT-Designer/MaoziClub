@@ -316,7 +316,7 @@ body {
 .products {
     margin: auto;
     padding: 40px 0px;
-    margin: 54px 16px;
+    margin: 54px 16px 0px;
 }
 
 .products .title {
