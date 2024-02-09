@@ -232,6 +232,7 @@ header .navbar .modal-header {
 .header .navbar .modal .my-close {
     font-size: 40px;
     color: var(--yellow-color);
+    cursor: pointer;
 }
 
 .modal-backdrop {
