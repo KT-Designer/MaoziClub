@@ -436,6 +436,10 @@ header .navbar .modal-header {
     font-size: 14px;
     font-family: 'Noto Sans TC';
     font-weight: 400;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
 }
 
 .products .row .money {
