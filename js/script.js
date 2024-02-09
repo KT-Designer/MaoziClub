@@ -41,9 +41,8 @@ $(document).ready(function () {
     });
 
     $('#close').on('click', function () {
-        $('.navbar').toggleClass('closed');
+        $('.navbar').toggleClass('closed').removeClass('menued');
     });
-
 
     // 點選項目後自動收合
     $(".navbar a").click(function () {
@@ -58,6 +57,11 @@ $(document).ready(function () {
     // adjustMiddleHeight();
 
 
+
+
 });
+
+
+
 
 
