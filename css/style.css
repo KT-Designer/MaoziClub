@@ -263,7 +263,9 @@ body {
 
 
 .carousel-indicators [data-bs-target] {
-    background-color: var(--yellow-color);
+    background-color: var(--black-color);
+    height: 5px;
+
 
 
 }
