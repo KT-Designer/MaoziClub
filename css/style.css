@@ -657,6 +657,12 @@ body {
         max-width: 146px;
     }
 
+    .header .openbt {
+        padding: 12px;
+    }
+
+
+
 
     .header .openbt .line {
         width: 30px;
