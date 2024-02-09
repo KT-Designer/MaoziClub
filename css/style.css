@@ -209,6 +209,7 @@ body {
 
 
 
+
 /* Hero */
 .hero .carousel-inner img {
     margin: auto;
@@ -420,8 +421,13 @@ body {
     width: 100%;
     text-align: right;
     padding: 0px;
+    outline: none;
+    border: 0;
+
+
 
 }
+
 
 
 .products .row .btn button {
@@ -432,7 +438,10 @@ body {
     outline: none;
     border: 1px solid transparent;
 
+}
 
+.products .row .btn:focus {
+    outline: 0;
 }
 
 
