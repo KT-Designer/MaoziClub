@@ -187,13 +187,21 @@ body {
 
 .header .navbar .modal .info {
     background-color: var(--black-color);
-    height: 400px;
+    height: 370px;
+}
 
 
+.header .navbar .modal .info .addfriend {
+    max-width: 300px;
+    position: absolute;
+    top: -40%;
+    left: 5%;
 
 }
 
-.header .navbar .modal-header {
+
+
+header .navbar .modal-header {
     border-bottom: 0px;
 }
 
