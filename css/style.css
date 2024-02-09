@@ -401,9 +401,16 @@ body {
 
 .products .row .mycard {
     background-color: var(--white-color);
-    box-shadow: 1px 1px 8px 0px #0000001A;
+    box-shadow: 1px 1px 8px 0px #00000029;
     padding: 16px;
     border-radius: 8px;
+    transition: 0.5s;
+}
+
+
+.products .row .mycard:hover {
+    box-shadow: 10px 10px 8px 0px #00000026;
+
 }
 
 .products .row .mycard img {
@@ -457,8 +464,6 @@ body {
     outline: none;
     border: 0;
 
-
-
 }
 
 
@@ -470,12 +475,17 @@ body {
     color: var(--white-color);
     /* 消黑框 */
     border: 1px solid transparent;
+    transition: 0.5s;
 
 }
 
-.products .row .btn:focus {
-    outline: 0;
+.products .row .btn button:hover {
+    background-color: var(--yellow-color);
+    color: var(--black-color);
 }
+
+
+
 
 
 
