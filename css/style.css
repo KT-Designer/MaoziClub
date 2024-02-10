@@ -460,7 +460,7 @@ header .navbar .modal-header {
 }
 
 .products .row .money .price {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     color: var(--black-color);
     text-decoration: line-through;
