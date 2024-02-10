@@ -188,6 +188,7 @@ body {
 .header .navbar .modal .info {
     background-color: var(--black-color);
     height: 370px;
+
 }
 
 
@@ -447,8 +448,8 @@ header .navbar .modal-header {
 }
 
 .products .row .money .vip {
-    font-size: 28px;
-    font-weight: 800;
+    font-size: 26px;
+    font-weight: 600;
     color: #FF5F5F;
 
 }
