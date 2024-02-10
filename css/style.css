@@ -265,8 +265,10 @@ header .navbar .modal-header {
     background-color: var(--black-color);
     height: 5px;
 
+}
 
-
+.carousel-indicators {
+    z-index: 1;
 }
 
 
