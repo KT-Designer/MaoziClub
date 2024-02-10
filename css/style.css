@@ -21,7 +21,7 @@ body {
     right: 15px;
     padding: 25px;
     background-image: url(../images/Icon_top.svg);
-    background-color: var(--black-color);
+    background-color: #101010;
     box-shadow: 2px 2px 0px 0px #00000039;
     background-repeat: no-repeat;
     background-position: center center;
