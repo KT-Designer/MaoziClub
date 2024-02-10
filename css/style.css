@@ -414,6 +414,10 @@ header .navbar .modal-header {
 
 }
 
+.products .row .mycard:hover .name {
+    color: var(--yellow-color);
+}
+
 .products .row .mycard img {
     width: 100%;
 }
@@ -433,6 +437,7 @@ header .navbar .modal-header {
     font-size: 16px;
     font-family: 'Noto Sans TC';
     font-weight: 400;
+    color: var(--black-color);
     overflow: hidden;
     display: -webkit-box;
     -webkit-box-orient: vertical;
