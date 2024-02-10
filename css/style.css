@@ -240,11 +240,6 @@ header .navbar .modal-header {
 }
 
 
-
-
-
-
-
 /* Hero */
 .hero .carousel-inner img {
     margin: auto;
@@ -423,7 +418,7 @@ header .navbar .modal-header {
 }
 
 .products .brand {
-    font-size: 16px;
+    font-size: 18px;
     text-align: center;
     font-family: 'Noto Sans TC';
     font-weight: 400;
@@ -434,7 +429,7 @@ header .navbar .modal-header {
 }
 
 .products .name {
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Noto Sans TC';
     font-weight: 400;
     overflow: hidden;
@@ -445,53 +440,29 @@ header .navbar .modal-header {
 
 .products .row .money {
     display: flex;
+    justify-content: end;
     font-family: 'Roboto';
     align-items: end;
     margin-bottom: 10px;
 }
 
 .products .row .money .vip {
-    font-size: 24px;
+    font-size: 28px;
     font-weight: 800;
     color: #FF5F5F;
 
 }
 
 .products .row .money .price {
-    font-size: 16px;
+    font-size: 18px;
     font-weight: 400;
     color: var(--black-color);
     text-decoration: line-through;
 }
 
 
-.products .row .btn {
-    width: 100%;
-    text-align: right;
-    padding: 0px;
-    /* 消黑框 */
-    outline: none;
-    border: 0;
-
-}
 
 
-
-.products .row .btn button {
-    padding: 8px 20px;
-    border-radius: 8px;
-    background-color: var(--black-color);
-    color: var(--white-color);
-    /* 消黑框 */
-    border: 1px solid transparent;
-    transition: 0.5s;
-
-}
-
-.products .row .btn button:hover {
-    background-color: var(--yellow-color);
-    color: var(--black-color);
-}
 
 
 
@@ -580,9 +551,6 @@ header .navbar .modal-header {
 
 
 
-
-
-
 .copyright {
     background: #101010;
     text-align: center;
@@ -594,6 +562,79 @@ header .navbar .modal-header {
     color: var(--white-color);
     margin-bottom: 0;
 }
+
+
+
+/* Product產品介紹頁 */
+.swiper {
+    max-width: 600px;
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+.swiper {
+    width: 100%;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+
+.mySwiper2 {
+    height: 80%;
+    width: 100%;
+}
+
+.mySwiper {
+    height: 20%;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+
+.mySwiper .swiper-slide {
+    width: 25%;
+    height: 100%;
+    /* opacity: 0.4; */
+}
+
+.mySwiper .swiper-slide-thumb-active {
+    opacity: 1;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+
+
+
+
+
+
 
 
 
