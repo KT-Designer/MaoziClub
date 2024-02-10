@@ -23,10 +23,10 @@ window.onscroll = function () {
 $(document).ready(function () {
 
     // 選單預設和點擊樣式
-    // 在css要特別設一個.active的樣式，例如  .my-navbar .nav-link.active
-    $('.item').click(function () {
+    // 在css要特別設一個.active的樣式
+    $('.nav-link').click(function () {
         // 移除之前的活動類別
-        $('.item').removeClass('active');
+        $('.nav-link').removeClass('active');
         // 添加當前點擊的菜單項的活動類別
         $(this).addClass('active');
     });

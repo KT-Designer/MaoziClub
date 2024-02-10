@@ -169,11 +169,12 @@ body {
     font-weight: 400;
 }
 
-.header ul li:hover a {
+.header ul li:hover .nav-link {
     color: var(--yellow-color);
 }
 
-.header ul .item.active {
+/* 配合JS用 */
+.header .navbar .nav-link.active {
     color: var(--yellow-color);
 
 }
@@ -222,6 +223,7 @@ header .navbar .modal-header {
     margin-top: 40px;
     font-family: 'Noto Sans TC';
     font-weight: 500;
+    color: var(--yellow-color);
 }
 
 .header .navbar .modal .modal-header {
