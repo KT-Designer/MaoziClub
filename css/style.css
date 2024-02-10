@@ -452,7 +452,7 @@ header .navbar .modal-header {
     display: flex;
     justify-content: end;
     font-family: 'Roboto';
-    align-items: end;
+    align-items: baseline;
     margin-bottom: 10px;
 }
 
