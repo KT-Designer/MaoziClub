@@ -40,6 +40,16 @@ body.pdp {
 
 }
 
+.pdp-name h5 {
+    font-size: 18px;
+    font-family: 'Noto Sans TC';
+    font-weight: 500;
+
+
+}
+
+
+
 
 
 
@@ -106,11 +116,7 @@ body.pdp {
     max-width: 460px;
 }
 
-/* .mySwiper2 .swiper-slide {
-    width: 460px !important;
-    height: 460px !important;
 
-} */
 
 .mySwiper {
     box-sizing: border-box;
@@ -135,8 +141,8 @@ body.pdp {
 
 .swiper-slide img {
     display: block;
-    width: 100%;
-    height: 100%;
+    width: 100% !important;
+    height: 100% !important;
     object-fit: cover;
     border-radius: 10px;
 }
@@ -210,15 +216,17 @@ body.pdp {
         order: 2;
         width: 100%;
         height: auto;
+
     }
 
     .mySwiper2 {
         order: 1;
+        max-width: none;
+
     }
 
-    .mySwiper2 {
-        max-width: 576px;
-    }
+
+
 
     /* ---------------------------------------------- */
 
