@@ -9,11 +9,14 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <!-- CSS樣式 -->
-    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="../css/product.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <!--Swiper's -->
+    <link rel="stylesheet" href="../css/swiper-bundle.min.css" />
 </head>
 
-<body class="home">
+<body class="pdp">
     <!-- 置頂鍵 -->
     <div id="scrolltop"></div>
 
@@ -38,7 +41,7 @@
             </div>
         </div>
 
-        <div class="slogan">🐶值得信賴的寵物用品購物平台🐶</div>
+        <div class="slogan">值得信賴的寵物用品購物平台</div>
 
         <div class="line">
             <svg width="28" height="28" viewBox="0 0 28 28" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -69,8 +72,8 @@
     <header class="header">
         <div class="logo">
             <a href="#">
-                <img class="logo_light" src="./images/logo.png" alt="">
-                <img class="logo_dark" src="./images/logo_dark.png" alt="">
+                <img class="logo_light" src="../images/logo.png" alt="">
+                <img class="logo_dark" src="../images/logo_dark.png" alt="">
             </a>
         </div>
         <div class="openbt d-block d-md-none" id="mymenu">
@@ -80,12 +83,12 @@
         </div>
         <nav class="navbar">
             <div class="off">
-                <img class="logo_dark" src="./images/logo_dark.png" alt="">
+                <img class="logo_dark" src="../images/logo_dark.png" alt="">
                 <i class="fa-solid fa-xmark" id="close"></i>
             </div>
             <ul>
                 <li>
-                    <a class="nav-link" href="#products">商品</a>
+                    <a class="nav-link" href="../index.html#products">商品</a>
                 </li>
 
                 <li>
@@ -100,7 +103,7 @@
                                 </div>
                                 <div class="modal-body">
                                     <a href="https://lin.ee/1nSqPjv" target="_blank">
-                                        <img src="./images/qrcode.png" alt="">
+                                        <img src="../images/qrcode.png" alt="">
                                     </a>
                                     <p class="d-block d-lg-none">點擊QRCODE加入好友，<br>優惠搶先看</p>
                                     <p class="d-none d-lg-block">立即加入專屬優惠搶先看</p>
@@ -117,253 +120,80 @@
     </header>
 
 
+    <!-- 產品介紹 -->
 
-
-    <!-- Hero -->
-    <div class="hero">
-        <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
-                    aria-current="true" aria-label="Slide 1"></button>
-                <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                    aria-label="Slide 2"></button>
-            </div>
-            <div class="carousel-inner">
-                <div class="carousel-item active" data-bs-interval="3000">
-                    <img src="./images/kv1.gif" class="d-block" alt="...">
+    <div class="pdp-name">
+        <h5 class="mb-0">《寵物健康 WELLNESS》腸胃熟齡犬(雞)4LB｜CORE腸胃消化機能｜熟齡犬｜雞肉｜狗顆粒乾糧</h5>
+    </div>
+    <div class="gallery">
+        <div style="--swiper-navigation-color: #fff; --swiper-pagination-color: #fff" class="swiper mySwiper2 m-0">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <img src="../images/pdp1.jpg" alt="">
                 </div>
-                <div class="carousel-item" data-bs-interval="2800">
-                    <img src="./images/kv2.png" class="d-block" alt="...">
+                <div class="swiper-slide">
+                    <img src="../images/pdp2.jpg" alt="">
                 </div>
-
+                <div class="swiper-slide">
+                    <img src="../images/pdp3.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../images/pdp4.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../images/pdp5.jpg" alt="">
+                </div>
+                <div class="swiper-slide">
+                    <img src="../images/pdp6.jpg" alt="">
+                </div>
             </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
-                data-bs-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="visually-hidden">Next</span>
-            </button>
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+        </div>
+        <div thumbsSlider="" class="swiper mySwiper m-0">
+            <div class="swiper-wrapper">
+                <div class="swiper-slide m-0">
+                    <img src="../images/pdp1.jpg" alt="">
+                </div>
+                <div class="swiper-slide m-0">
+                    <img src="../images/pdp2.jpg" alt="">
+                </div>
+                <div class="swiper-slide m-0">
+                    <img src="../images/pdp3.jpg" alt="">
+                </div>
+                <div class="swiper-slide m-0">
+                    <img src="../images/pdp4.jpg" alt="">
+                </div>
+                <div class="swiper-slide m-0">
+                    <img src="../images/pdp5.jpg" alt="">
+                </div>
+                <div class="swiper-slide m-0">
+                    <img src="../images/pdp6.jpg" alt="">
+                </div>
+            </div>
         </div>
     </div>
 
-
-    <!-- 五大優勢 -->
-    <div class="advantage">
-        <div class="row g-2 g-md-3 ">
-            <div class="col-6 col-md-4">
-                <div class="mycard">
-                    <img src="./images/Icon_advantage.svg" alt="">
-                    <div class="text title">
-                        <h5>五大優勢</h5>
-                        <p>ADVANTAGE</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4">
-                <div class="mycard">
-                    <img src="./images/Icon_money.svg" alt="">
-                    <div class="text">
-                        <h5>價格優勢</h5>
-                        <p>價格實惠，物超所值</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4">
-                <div class="mycard">
-                    <img src="./images/Icon_quality.svg" alt="">
-                    <div class="text">
-                        <h5>品質把關</h5>
-                        <p>品質保證，值得信賴</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4">
-                <div class="mycard">
-                    <img src="./images/Icon_search.svg" alt="">
-                    <div class="text">
-                        <h5>提供找貨服務</h5>
-                        <p>貨源豐富，選擇多樣</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4">
-                <div class="mycard">
-                    <img src="./images/Icon_points.svg" alt="">
-                    <div class="text">
-                        <h5>會員點數回饋</h5>
-                        <p>消費越多回饋越多</p>
-                    </div>
-                </div>
-            </div>
-
-            <div class="col-6 col-md-4">
-                <div class="mycard">
-                    <img src="./images/Icon_record.svg" alt="">
-                    <div class="text">
-                        <h5>紀錄常用商品</h5>
-                        <p>優化購物體驗</p>
-                    </div>
-                </div>
-            </div>
-
-
-
-
-        </div>
-
-
-
-    </div>
-
-
-    <!-- 商品總覽 -->
-    <div class="products" id="products">
+    <div class="pdp-info">
         <div class="title">
-            <img src="./images/bone.png" alt="">
-            <div class="text">
-                <h4 class="m-0">商品總覽</h4>
-                <p class="m-0">PRODUCTS</p>
-            </div>
-            <img src="./images/bone.png" alt="">
+            <img src="../images/bone.png" alt="">
+            <h5 class="mb-0">產品資訊</h5>
+            <img src="../images/bone.png" alt="">
         </div>
 
-        <div class="row">
-            <div class="col-12 col-md-4 col-lg-3 p-1 p-md-2">
-                <div class="mycard">
-                    <a href="./html/product.html">
-                        <div class="pic">
-                            <img src="./images/products1.png" alt="">
-                        </div>
-                        <h5 class="brand">鮮樂嚐 Letasty</h5>
-                        <p class="name">【成幼犬】雞&三種魚(高適口性配方)-2公斤</p>
-                        <div class="money">
-                            <div class="vip">$399</div>
-                            <div class="price">$520</div>
-                        </div>
-                    </a>
-                </div>
-            </div>
 
-            <div class="col-12 col-md-4 col-lg-3 p-1 p-md-2">
-                <div class="mycard">
-                    <a href="./html/product.html">
-                        <div class="pic">
-                            <img src="./images/products2.png" alt="">
-                        </div>
-                        <h5 class="brand">鮮樂嚐 Letasty</h5>
-                        <p class="name">【全齡犬】無穀三種魚+羊肉低敏配方-2公斤</p>
-                        <div class="money">
-                            <div class="vip">$576</div>
-                            <div class="price">$730</div>
-                        </div>
-                    </a>
-                </div>
-            </div>
 
-            <div class="col-12 col-md-4 col-lg-3 p-1 p-md-2">
-                <div class="mycard">
-                    <a href="./html/product.html">
-                        <div class="pic">
-                            <img src="./images/products3.png" alt="">
-                        </div>
-                        <h5 class="brand">鮮樂嚐 Letasty</h5>
-                        <p class="name">【熟齡犬】雞&羊&三種魚(高纖低脂配方)-2公斤</p>
-                        <div class="money">
-                            <div class="vip">$420</div>
-                            <div class="price">$520</div>
-                        </div>
-                    </a>
-                </div>
-            </div>
+        <div class="detail">
+            <p>■ 成分：新鮮去骨雞肉、乾燥雞肉（葡萄糖胺和硫酸軟骨素的來源）、糙米、大麥、豌豆蛋白、甜菜漿、亞麻籽、雞脂、天然雞肉香料、南瓜、啤酒酵母、蔓越莓、鮭魚油、蘋果、石榴、氯化鉀、菊粉、水解酵母、維生素E、牛磺酸、氯化膽鹼、左旋肉鹼、多磷酸態維生素C、木瓜、藍莓、混合生育酚以保持新鮮、碳酸鈣、菸鹼酸、鋅蛋白、硫酸亞鐵、硫酸鋅、鐵蛋白、絲蘭萃取物、維生素A、硝酸硫胺素、D-泛酸鈣、肉桂、甜茴香、薄荷、鹽酸吡哆醇、亞硒酸鈉、乾屎腸球菌發酵物、硫酸銅、抗壞血酸（維生素
+                C）、硫酸錳、錳蛋白、核黃素、乾凝結芽孢桿菌發酵物、生物素、維生素 D3、銅蛋白、乾保加利亞乳桿菌發酵物、乾嗜熱腸球菌發酵物、維生素
+                B12、碘酸鈣、葉酸、乾地衣芽孢桿菌發酵物、乾枯草芽孢桿菌發酵物、乾米麴菌發酵物、乾里氏木黴發酵物、乾米根黴發酵物、乾嗜酸乳桿菌發酵物、乾凱氏乳桿菌發酵物、迷迭香萃取物、綠茶萃取物、薄荷萃取物。<br><br>
 
-            <div class="col-12 col-md-4 col-lg-3 p-1 p-md-2">
-                <div class="mycard">
-                    <a href="./html/product.html">
-                        <div class="pic">
-                            <img src="./images/products4.png" alt="">
-                        </div>
-                        <h5 class="brand">鮮樂嚐 Letasty</h5>
-                        <p class="name">【【全齡犬】無穀三種魚+羊肉低敏配方-2公斤</p>
-                        <div class="money">
-                            <div class="vip">$576</div>
-                            <div class="price">$730</div>
-                        </div>
-                    </a>
-                </div>
-            </div>
+                ■ 營養分析：蛋白質 ：28％以上、脂肪：10.5％以上、粗纖維： 4.0％以下、水份：10％以下、鈣 ：1.2％以下、磷： 1.0％以下、維生素A ： 25000IU / kg、維生素E： 400 IU
+                /kg 以上、牛磺酸：0.2％以上、左旋肉鹼：400mg /kg以上、Omega6*： 2.25％以上、Omega3*： 0.6％以上、葡萄糖胺*： 800mg /kg以上、軟骨素： 1200mg
+                /kg以上、乳酸菌總數* ：100,000,000 CFU /LB 以上、蛋白酶：280 HUT /LB 以上、纖維素酶：100 纖維素酶單位 /LB 以上、澱粉酶：5 糊精單位/ LB 以上。
+                *非 AAFCO 狗糧規範所要求必須列出的營養素<br><br>
 
-            <div class="col-12 col-md-4 col-lg-3 p-1 p-md-2">
-                <div class="mycard">
-                    <a href="./html/product.html">
-                        <div class="pic">
-                            <img src="./images/products5.png" alt="">
-                        </div>
-                        <h5 class="brand">鮮樂嚐 Letasty</h5>
-                        <p class="name">【成幼貓】雞&三種魚(營養化毛配方)-2公斤</p>
-                        <div class="money">
-                            <div class="vip">$450</div>
-                            <div class="price">$570</div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4 col-lg-3 p-1 p-md-2">
-                <div class="mycard">
-                    <a href="./html/product.html">
-                        <div class="pic">
-                            <img src="./images/products1.png" alt="">
-                        </div>
-                        <h5 class="brand">鮮樂嚐 Letasty</h5>
-                        <p class="name">【無穀全齡貓】雞&鮭魚(泌尿化毛配方)-2公斤</p>
-                        <div class="money">
-                            <div class="vip">$599</div>
-                            <div class="price">$770</div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4 col-lg-3 p-1 p-md-2">
-                <div class="mycard">
-                    <a href="./html/product.html">
-                        <div class="pic">
-                            <img src="./images/products2.png" alt="">
-                        </div>
-                        <h5 class="brand">鮮樂嚐 Letasty</h5>
-                        <p class="name">【無穀全齡貓】雞&鮭魚(泌尿化毛配方)-2公斤</p>
-                        <div class="money">
-                            <div class="vip">$599</div>
-                            <div class="price">$770</div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
-            <div class="col-12 col-md-4 col-lg-3 p-1 p-md-2">
-                <div class="mycard">
-                    <a href="./html/product.html">
-                        <div class="pic">
-                            <img src="./images/products3.png" alt="">
-                        </div>
-                        <h5 class="brand">鮮樂嚐 Letasty</h5>
-                        <p class="name">【無穀全齡貓】雞&鮭魚(泌尿化毛配方)-2公斤</p>
-                        <div class="money">
-                            <div class="vip">$599</div>
-                            <div class="price">$520</div>
-                        </div>
-                    </a>
-                </div>
-            </div>
-
+                熱量：3336kcal／kg</p>
         </div>
 
     </div>
@@ -372,16 +202,21 @@
 
 
 
-    <!-- 廣告BANNER -->
-    <div class="ad">
-        <img src="./images/LINEfriend.png" alt="">
-    </div>
+
+
+
+
+
+
+
+
+
 
     <!-- Fotter -->
     <footer class="footer" id="contact">
         <div class="row">
             <div class="col-12 col-md-6 brand">
-                <img src="./images/logo_dark.png" alt="">
+                <img src="../images/logo_dark.png" alt="">
                 <p>毛仔俱樂部，毛起來愛。我們與最優質的寵物品牌合作，為您提供安全可靠、優質優價的寵物用品。</p>
             </div>
 
@@ -435,7 +270,7 @@
                 </div>
                 <div class="qrcode">
                     <a href="https://lin.ee/1nSqPjv" target="_blank">
-                        <img src="./images/qrcode.png" alt="">
+                        <img src="../images/qrcode.png" alt="">
                     </a>
                 </div>
             </div>
@@ -485,9 +320,41 @@
         crossorigin="anonymous"></script>
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <!-- Swiper -->
+    <script src="../js/swiper-bundle.min.js"></script>
+    <!-- Initialize Swiper -->
+    <script>
+        // 產品說明頁_Swiper
+        var swiper = new Swiper(".mySwiper", {
+            spaceBetween: 10,
+            slidesPerView: 4,
+            freeMode: true,
+            watchSlidesProgress: true,
+            breakpoints: {
+                // 當視窗寬度大於等於 768px 時
+                768: {
+                    direction: 'vertical', // 使用垂直方向
+                },
+                // 當視窗寬度小於 768px 時
+                0: {
+                    direction: 'horizontal', // 使用水平方向
+                }
+            }
+        });
+        var swiper2 = new Swiper(".mySwiper2", {
+            spaceBetween: 10,
+            navigation: {
+                nextEl: ".swiper-button-next",
+                prevEl: ".swiper-button-prev",
+            },
+            thumbs: {
+                swiper: swiper,
+            },
+        });
 
+    </script>
     <!-- JS -->
-    <script src="./js/script.js"></script>
+    <script src="../js/script.js"></script>
 </body>
 
 </html>
