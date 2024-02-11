@@ -508,6 +508,7 @@ header .navbar .modal-header {
     padding: 60px 16px;
     display: flex;
     justify-content: center;
+    margin: auto;
 
 
 }
