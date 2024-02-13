@@ -586,12 +586,17 @@ body.home {
     color: var(--white-color);
 }
 
+.footer .row .contact a:hover,
+.footer .row .contact p:hover {
+    color: var(--yellow-color);
+}
+
 .footer .row .contact {
     display: flex;
     align-items: center;
 }
 
-.footer .row .contact .container {
+.footer .row .contact .footer .row .contact .container {
     width: 240px;
     padding: 0;
     margin: 0;
