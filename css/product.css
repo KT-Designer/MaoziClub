@@ -262,6 +262,13 @@ body.pdp {
 
 @media screen and (max-width: 576px) {
 
+    body.pdp {
+        /* background-color: #FFF6EA; */
+        background: url(../images/bg.png);
+        background-size: 100%;
+
+    }
+
     /* 產品介紹頁 */
     .pdp-name h5 {
         margin: 36px 16px 0px;
