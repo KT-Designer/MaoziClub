@@ -14,6 +14,8 @@ body.home {
 }
 
 
+
+
 /* 頂置鍵 */
 #scrolltop {
     position: fixed;
@@ -387,11 +389,11 @@ body.home {
 }
 
 .advantage .row .title h5 {
-    font-size: 26px;
+    font-size: 1.625rem;
 }
 
 .advantage .row .title p {
-    font-size: 18px;
+    font-size: 1.125rem;
 }
 
 .advantage .row .mycard img {
@@ -489,7 +491,7 @@ body.home {
 }
 
 .products .brand {
-    font-size: 16px;
+    font-size: 1rem;
     text-align: center;
     font-family: 'Noto Sans TC';
     font-weight: 400;
@@ -501,9 +503,9 @@ body.home {
 }
 
 .products .name {
-    font-size: 14px;
+    font-size: 0.875rem;
     font-family: 'Noto Sans TC';
-    font-weight: 400;
+    font-weight: 500;
     color: var(--black-color);
     overflow: hidden;
     display: -webkit-box;
@@ -520,14 +522,14 @@ body.home {
 }
 
 .products .row .money .vip {
-    font-size: 26px;
+    font-size: 1.625rem;
     font-weight: 600;
     color: #FF5F5F;
 
 }
 
 .products .row .money .price {
-    font-size: 16px;
+    font-size: 1rem;
     font-weight: 400;
     color: var(--black-color);
     text-decoration: line-through;
@@ -705,6 +707,9 @@ body.home {
 }
 
 @media screen and (max-width: 576px) {
+    html {
+        font-size: 19px;
+    }
 
     /* Header */
     .header {
