@@ -53,47 +53,12 @@ $(document).ready(function () {
         $(".navbar").addClass("closed").removeClass("menued");
     }
 
-    // 初始化時調整一次
-    // adjustMiddleHeight();
 
 
     // Hero_輪播不停止
     $('.carousel').carousel({ pause: false });
 
 
-});
-
-
-
-
-// 產品說明頁_Swiper
-var swiper = new Swiper(".mySwiper", {
-    loop: true,
-    spaceBetween: 10,
-    slidesPerView: 4,
-    freeMode: true,
-    watchSlidesProgress: true,
-    breakpoints: {
-        // 當視窗寬度大於等於 768px 時
-        768: {
-            direction: 'vertical', // 使用垂直方向
-        },
-        // 當視窗寬度小於 768px 時
-        0: {
-            direction: 'horizontal', // 使用水平方向
-        }
-    }
-});
-var swiper2 = new Swiper(".mySwiper2", {
-    loop: true,
-    spaceBetween: 10,
-    navigation: {
-        nextEl: ".swiper-button-next",
-        prevEl: ".swiper-button-prev",
-    },
-    thumbs: {
-        swiper: swiper,
-    },
 });
 
 
