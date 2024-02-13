@@ -617,10 +617,6 @@ body.home {
 }
 
 
-.footer .row .qrcode {
-    margin-left: 10%;
-}
-
 .footer .row .qrcode img {
     max-width: 133px;
     width: 100%;
