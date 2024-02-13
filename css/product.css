@@ -13,7 +13,10 @@
 
 
 body.pdp {
-    background-color: #FFF6EA;
+    /* background-color: #FFF6EA; */
+    background: url(../images/bg.png);
+    background-size: 80%;
+
 }
 
 
@@ -39,8 +42,7 @@ body.pdp {
     margin: 36px auto 0px;
     border-radius: 10px;
     background-color: var(--white-color);
-
-
+    box-shadow: 0px 2px 4px 0px #0000001A;
 
 }
 
@@ -72,6 +74,8 @@ body.pdp {
 .swiper {
     width: 100%;
     height: 100%;
+    z-index: 0 !important;
+
 }
 
 /* .swiper-slide {
@@ -89,6 +93,8 @@ body.pdp {
     height: 100%;
     object-fit: cover;
     border-radius: 10px;
+    box-shadow: 0px 2px 4px 0px #0000001A;
+
 }
 
 
@@ -111,6 +117,9 @@ body.pdp {
     width: 100%;
     order: 2;
     max-width: 460px;
+    box-shadow: 0px 2px 4px 0px #0000001A;
+    border-radius: 10px;
+
 }
 
 
@@ -134,16 +143,83 @@ body.pdp {
     height: 109px !important;
 }
 
-
-
-
 /* ------------------------------------------ */
-
-
 
 .pdp-info {
     max-width: 587px;
-    margin: auto;
+    margin: 0px auto 100px;
+}
+
+.pdp-info .container {
+    display: flex;
+    justify-content: space-between;
+    gap: 14px;
+    margin-bottom: 16px;
+}
+
+
+.pdp-info .container .money {
+    display: flex;
+    font-family: 'Roboto';
+    align-items: baseline;
+    background-color: var(--white-color);
+    border-radius: 10px;
+    max-width: 353px;
+    width: 100%;
+    padding: 10px 18px;
+    box-shadow: 0px 2px 4px 0px #0000001A;
+
+}
+
+.pdp-info .container .money .vip {
+    font-size: 30px;
+    font-weight: 600;
+    color: #FF5F5F;
+}
+
+
+.pdp-info .container .money .price {
+    font-size: 16px;
+    color: var(--black-color);
+    text-decoration: line-through;
+}
+
+.pdp-info .container .contact {
+    display: flex;
+    gap: 8px;
+    background-color: var(--black-color);
+    border-radius: 10px;
+    padding: 10px 0px;
+    justify-content: center;
+    align-items: center;
+    max-width: 220px;
+    width: 100%;
+    text-decoration: none;
+    transition: 0.6s;
+    box-shadow: 0px 2px 4px 0px #0000001A;
+}
+
+.pdp-info .container .contact:hover {
+    background-color: var(--yellow-color);
+}
+
+.pdp-info .container .contact:hover h5 {
+    color: var(--black-color);
+}
+
+.pdp-info .container .contact:hover path {
+    fill: var(--black-color);
+}
+
+
+
+
+.pdp-info .container .contact h5 {
+    font-size: 16px;
+    font-family: 'Noto Sans TC';
+    font-weight: 400;
+    color: var(--white-color);
+
 }
 
 
@@ -155,6 +231,7 @@ body.pdp {
     background-color: var(--white-color);
     padding: 16px;
     border-radius: 10px;
+    box-shadow: 0px 2px 4px 0px #0000001A;
 
 }
 
@@ -177,6 +254,7 @@ body.pdp {
     background-color: var(--white-color);
     border-radius: 10px;
     margin-top: 16px;
+    box-shadow: 0px 2px 4px 0px #0000001A;
 
 }
 
@@ -186,7 +264,6 @@ body.pdp {
 
     /* 產品介紹頁 */
     .pdp-name h5 {
-
         margin: 36px 16px 0px;
     }
 
@@ -214,13 +291,10 @@ body.pdp {
 
     }
 
-
-
-
     /* ---------------------------------------------- */
 
     .pdp-info {
-        margin: auto 16px;
+        margin: 0px 16px 60px;
     }
 
 

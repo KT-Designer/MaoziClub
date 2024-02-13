@@ -94,7 +94,9 @@ body.home {
 }
 
 .topbar .line {
-    justify-content: end
+    justify-content: end;
+    cursor: pointer;
+
 }
 
 .topbar p,
@@ -121,7 +123,6 @@ body.home {
 
 
 /* Header */
-
 .header {
     padding: 10px 80px;
     background-color: var(--white-color);
@@ -191,7 +192,7 @@ body.home {
 
 /* Modal */
 
-.header .navbar .modal .info {
+.modal .info {
     background-color: var(--black-color);
     height: 370px;
 
@@ -200,16 +201,15 @@ body.home {
 
 
 
-
-header .navbar .modal-header {
+.modal-header {
     border-bottom: 0px;
 }
 
-.header .navbar .modal-footer {
+.modal-footer {
     border-top: 0px;
 }
 
-.header .navbar .modal-body {
+.modal-body {
     text-align: center;
     display: flex;
     flex-direction: column;
@@ -218,12 +218,12 @@ header .navbar .modal-header {
     padding: 0px;
 }
 
-.header .navbar .modal-body img {
+.modal-body img {
     max-width: 140px;
     width: 100%;
 }
 
-.header .navbar .modal-body p {
+.modal-body p {
     font-size: 20px;
     margin-top: 40px;
     font-family: 'Noto Sans TC';
@@ -231,13 +231,13 @@ header .navbar .modal-header {
     color: var(--yellow-color);
 }
 
-.header .navbar .modal .modal-header {
+.modal .modal-header {
     justify-content: flex-end;
 }
 
 
 
-.header .navbar .modal .my-close {
+.modal .my-close {
     font-size: 40px;
     color: var(--yellow-color);
     cursor: pointer;
@@ -280,6 +280,59 @@ header .navbar .modal-header {
 
 
 /* 五大優勢 */
+.dog {
+    max-width: 160px;
+    position: fixed;
+    left: 20px;
+    bottom: 0px;
+}
+
+#L1 {
+    position: fixed;
+    top: 16%;
+    left: 6%;
+    z-index: -1;
+}
+
+#L2 {
+    position: fixed;
+    top: 46%;
+    left: 6%;
+    z-index: -1;
+}
+
+
+#L3 {
+    position: fixed;
+    top: 80%;
+    left: 12%;
+    z-index: -1;
+}
+
+#R1 {
+    position: fixed;
+    top: 18%;
+    right: 5%;
+    z-index: -1;
+}
+
+#R2 {
+    position: fixed;
+    top: 40%;
+    right: 8%;
+    z-index: -1;
+}
+
+#R3 {
+    position: fixed;
+    top: 86%;
+    right: 8%;
+    z-index: -1;
+}
+
+
+
+
 .advantage {
     max-width: 874px;
     margin: auto;
@@ -436,7 +489,7 @@ header .navbar .modal-header {
 }
 
 .products .brand {
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     font-family: 'Noto Sans TC';
     font-weight: 400;
@@ -448,7 +501,7 @@ header .navbar .modal-header {
 }
 
 .products .name {
-    font-size: 16px;
+    font-size: 14px;
     font-family: 'Noto Sans TC';
     font-weight: 400;
     color: var(--black-color);
@@ -508,7 +561,6 @@ header .navbar .modal-header {
     padding: 60px 16px;
     display: flex;
     justify-content: center;
-    margin: auto;
 
 
 }
@@ -600,6 +652,17 @@ header .navbar .modal-header {
     .carousel-control-prev,
     .carousel-control-next,
     .hero .carousel-indicators {
+        display: none;
+    }
+
+    /* 五大優勢 */
+    #dog,
+    #L1,
+    #L2,
+    #L3,
+    #R1,
+    #R2,
+    #R3 {
         display: none;
     }
 
