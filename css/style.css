@@ -820,8 +820,8 @@ body.home {
     }
 
     #close {
-        font-size: 24px;
-        color: var(--yellow-color);
+        max-width: 19px;
+        fill: var(--yellow-color);
 
     }
 
